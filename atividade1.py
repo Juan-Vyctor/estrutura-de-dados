@@ -1,11 +1,22 @@
-print("Bem vindo, faça seu cadastro:");
-cadastrado = False;
-
 def verificaEmail(email) :
-    if '@' in email and '.' in email :
+    posicao = 0;
+    posArroba = 0;
+    posPonto = 0;
+
+    for caracter in email :
+        if caracter == '@' :
+            posArroba = posicao;
+        elif caracter == '.' :
+            posPonto = posicao;
+        posicao += 1;
+    
+    if posArroba > 0 and posPonto > (posArroba + 1) :
         return True;
     else :
         return False;
+
+print("Bem vindo, faça seu cadastro:");
+cadastrado = False;
 
 while (cadastrado == False):
     nome = input("Nome: ");

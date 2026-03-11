@@ -15,8 +15,8 @@ def calculaSalario(valor, horas, extras) :
     return base + extra;
 
 def minMax (lista) :
-    minimo = 1000000000000;
-    maximo = 0;
+    minimo = lista[0];
+    maximo = minimo;
 
     for numero in lista :
         if minimo > numero :

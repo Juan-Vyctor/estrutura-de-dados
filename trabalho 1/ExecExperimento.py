@@ -64,8 +64,8 @@ if __name__ == "__main__":
                   "Fibonacci-Iterativo","Fibonacci-Recursivo",
                   "OrdenacaoN2-Iterativo","OrdenacaoN2-Recursivo",
                   "OrdenacaoNLog-Iterativo", "OrdenacaoNLog-Recursivo"]
-    funcoes = [fib.fibonacciIt,fib.fibonacci,
-               fat.fatorialIt,fat.fatorial,
+    funcoes = [fat.fatorialIt,fat.fatorial,
+               fib.fibonacciIt,fib.fibonacci,
                ordN2.ordenarIterativoN2,ordN2.ordenarRecursivoN2,
                ordNLog.ordenarIterativoNLog,ordNLog.ordenarRecursivoNLog]
     for i in range(0,len(algoritmos)):

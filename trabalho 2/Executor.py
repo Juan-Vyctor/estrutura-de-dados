@@ -63,7 +63,6 @@ if __name__ == "__main__":
 
     for i in range(len(opcoes)):
         print(f"[{i+1}] {opcoes[i]}");
-        if i % 2 == 1 and i != 11: print("\n");
 
     opcao = int(input("Escolha o experimento: "));
     if opcao > 0 and opcao <= len(funcoes):

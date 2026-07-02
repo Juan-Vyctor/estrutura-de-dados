@@ -97,7 +97,7 @@ class ArvoreBinaria:
 
 class HashArvore:
     # 10007 foi o número primo mais próximo de 10000, praquele lance de colisão e tudo mais
-    def __init__(self, capacidade=100007):
+    def __init__(self, capacidade=10007):
         self.capacidade = capacidade
         self.tabela = [None] * capacidade
     
